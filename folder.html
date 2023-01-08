@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IROBMUSIC - Favourites</title>
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+
+    <!-- Use font awesome for social icons -->
+    <script src="https://kit.fontawesome.com/4cda66d231.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header section for navigation bar, search and social icons -->
+    <header>
+        <a href="./index.html"><img class="logo" src="./images/irob-logo.png" alt="Music Logo" id="logo"></a>
+
+        <!-- Hamburger icon -->
+        <input id="toggle" type="checkbox"></input>
+        <label for="toggle" class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </label>   
+
+        <!-- Navigation menu -->
+        <div class="nav">
+            <div class="nav-wrapper">
+                <nav>
+                    <ul class="nav_links">
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="./music.html">MUSIC</a></li>
+                        <li><a href="./studio.html">STUDIO</a></li>
+                        <li><a href="./folder.html" class="active">FOLDER</a></li>
+                        <li><a href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="socials nodisplay" id="socials">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-soundcloud"></i></a>
+        </div>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <div class="page-container">
+            <h1 class="menu-heading">Folder</h1>
+            <!-- <h2>MY FOLDER</h2> -->
+            <div id="indent">
+                <div class="savedtitle">
+                    <h2 id="h2">Saved</h2>
+                </div>
+                <div id="displayitems">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer section for offical declaration -->
+    <footer>
+        <div>Website by <a href="./index.html">Ian Roberts</a></div>
+    </footer>
+    <script type="text/javascript" src="./js/folder.js"></script>
+</body>
+</html>
