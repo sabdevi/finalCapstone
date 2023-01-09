@@ -13,12 +13,12 @@ This project is an addition to a previous hobby music website I created.  The we
 
 Please select from the following topics and it will direct you to the relevant page:
 
-1. Installation
-1. Usage
-1. Navigation
-1. Like and Save for Later Feature
-1. Comments Feature
-1. Credits
+1. [Installation](https://github.com/sabdevi/finalCapstone#1-installation)
+1. [Usage](https://github.com/sabdevi/finalCapstone#2-usage)
+1. [Navigation](https://github.com/sabdevi/finalCapstone#3-navigation)
+1. [Like and Save for Later Feature](https://github.com/sabdevi/finalCapstone#4-like-and-save-for-later-feature)
+1. [Comments Feature](https://github.com/sabdevi/finalCapstone#5-comments-feature)
+1. [Credits](https://github.com/sabdevi/finalCapstone#6-credits)
 
 ## 1. Installation
 
