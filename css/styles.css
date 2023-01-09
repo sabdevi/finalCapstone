@@ -288,6 +288,10 @@ footer a:hover {
     display: none;
 }
 
+.noborder {
+    border: none;
+}
+
 /* Hide nav menu and socials for mobile view */
 @media screen and (min-width: 1307px) {
     label i {
